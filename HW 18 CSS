@@ -1,0 +1,312 @@
+nav {
+    background-color: black;
+    width: 100%;
+    height: 70px
+}
+
+.logo {
+    color: #FFFFFF;
+    font-size: 50px;
+    padding: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+img {
+    height: auto;
+    width: 20%;
+}
+
+
+.heroImg {
+    background-color: #dfdfdf;
+    padding: 100px;
+}
+  
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+}
+
+p {
+    font-size: 24px;
+}
+
+nav ul {
+    width: auto;
+    float: right;
+    margin-top: 8px;
+    font-size: 24px;  
+}
+
+nav li {
+    display: inline-block;
+    padding: 15px 50px
+}
+
+ul li a {
+    color:white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 50px 50px;
+    margin: 20px 50px 20px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 50px 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1rem;
+}
+
+
+h3 {
+    text-align: center;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#categoryGrid {
+    margin: 50px 25%;
+    display: grid;
+    grid-template-rows: 500px 500px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "Aeon For Ocean Group on the Go"
+    "U.S. Department of Agriculture Tribi"
+}
+
+
+.button {
+    width: 80px;
+    height: 40px;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px gray;
+}
+
+
+#aeonforocean {
+    font-size: 50px;
+    color:black;
+    text-align: center;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#aeonforocean img {
+    width: 100%;
+    height: auto;
+}
+
+
+#grouponthego {
+    font-size: 50px;
+    color:black;
+    text-align: center;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#grouponthego img {
+    width: 30%;
+    height: auto;
+}
+
+#usda {
+    font-size: 30px;
+    color:black;
+    text-align: center;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#usda img {
+    width: 90%;
+    height: auto;
+}
+
+#tribi {
+    font-size: 50px;
+    color:black;
+    text-align: center;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#tribi img {
+    width: 30%;
+    height: auto;
+}
+
+.categoryGridArea {
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 3px solid gray;
+    box-shadow: 3px 3px 3px rgb(150, 150, 150);
+    margin: 10px 10px;
+    cursor: pointer;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 80px 20%;
+    column-gap: 1cm;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box1 {
+    background-color: white;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 18px;
+}
+
+
+.box1 img {
+    width: 40%;
+    height: auto;
+}
+
+.box2 {
+    background-color:white;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 18px;
+}
+
+
+.box2 img {
+    width: 25%;
+    height: auto;
+}
+
+.box3 {
+    background-color: white;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 18px;
+}
+
+
+.box3 img {
+    width: 40%;
+    height: auto;
+}
+
+.footer {
+    background: #E2E2E2;
+    height: 220px;
+}
+
+.footer-bottom {
+    text-align: center;  
+    font-family: Arial, Helvetica, sans-serif; 
+    padding: 20px;
+    line-height: 2;
+    font-size: 18px;
+}
+
+
+.footer ul li a {
+    color:rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.footer li {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+
+
+@media only screen and (max-width: 600) {
+    body {
+
+
+        .flexContainer {
+            display: flex;
+            flex-direction: row;
+            margin: 80px 33%;
+            column-gap: 1cm;
+            font-family: Arial, Helvetica, sans-serif;
+
+        display: flex;
+        flex-direction: column;
+
+        .box1 {
+            background-color: white;
+            text-align: center;
+            padding-top: 1rem;
+            font-size: 14px;
+        }
+        
+        .box1 img {
+            width: 20%;
+            height: auto;
+        }
+        
+        .box2 {
+            background-color:white;
+            text-align: center;
+            padding-top: 1rem;
+            font-size: 14px;
+        }
+                
+        .box2 img {
+            width: 20%;
+            height: auto;
+        }
+        
+        .box3 {
+            background-color: white;
+            text-align: center;
+            padding-top: 1rem;
+            font-size: 14px;
+        }
+        
+        .box3 img {
+            width: 20%;
+            height: auto;
+        }
+
+        
+    #categoryGrid {
+        margin: 50px 25%;
+        display: grid;
+        grid-template-rows: 500px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "Aeon For Ocean"
+        "Group on the Go"
+        "U.S. Department of Agriculture"
+        "Tribi"
+    }
+}
